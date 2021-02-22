@@ -1,6 +1,6 @@
 # Ingesta de datos
 
-El objeto de este interfaz es recibir los eventos proporcionados por los vehículos, a través de sus clouds correspondientes.
+El objeto de este interfaz es recibir los eventos proporcionados por los vehículos, a través de sus clouds correspondientes. El interfaz se basa en un servicio REST que recibe los datos una vez anonimizados y verificada su calidad por el cloud cliente.
 
 Para la conexión del Cloud es necesario ponerse en contacto con los responsables de la plataforma y solicitar el correspondiente Certificado Digital de cliente con el que se autenticarán frente a la plataforma.
 

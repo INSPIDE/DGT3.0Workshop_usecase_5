@@ -25,7 +25,7 @@ PRO |
 
 ## Publicación en tiempo real de eventos
 
-Dada la criticidad de los eventos, se publicarán a través de un broker MQTT la información dinámica de los eventos. Los clientes se suscribirán al broker recibiendo la mensajería de acuerdo al API descrito en 
+Dada la criticidad de los eventos, se publicarán a través de un broker MQTT la información dinámica de los eventos. Los clientes se suscribirán al broker recibiendo la mensajería de acuerdo al API descrito en https://playground.asyncapi.io/?load=https://raw.githubusercontent.com/INSPIDE/DGT3.0Workshop_usecase_5/main/docs/dgt30_caso5_mqtt.yaml
 
 ## Publicación de datos asociados a cada evento
 

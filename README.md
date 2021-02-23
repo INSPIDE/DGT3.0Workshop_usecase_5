@@ -9,6 +9,7 @@ El presente documento se elabora con el objetivo de servir de ayuda a la integra
 * DGT Traza: Aplicación TRAZA de DGT para enriquecimiento de datos
 * DGT3.0_RealTime_BS: Parte de la plataforma DGT3.0 que publica los eventos una vez procesados 
 * Plataforma consumidora cliente: Plataforma que conecta a DGT3.0 para obtener información generada
+* DGT GIS: Plataforma del GIS corporativo de DGT
 
 ## Flujo de información
 Dada las características del caso de uso, se diferencian dos partes en el mismo. La ingesta de datos procedentes de las plataformas de balizas y la publicación de estos datos. El flujo de menesajes se puede mostrar en el siguiente gráfico.

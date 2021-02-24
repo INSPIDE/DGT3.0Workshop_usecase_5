@@ -44,7 +44,7 @@ A través de un microservicio se expondrá un API REST para permitir la consulta
   "speed": 25.3
 }
 ```
-Si es necesario la consulta de los metadatos asociados, invocará a un servicio REST que expone la información disponible y que enriquece la original. La definición del API de este servicio se encuentra expuesta en xxxxxxxxxxxxx
+Si es necesario la consulta de los metadatos asociados, invocará a un servicio REST que expone la información disponible y que enriquece la original. La definición del API de este servicio se encuentra expuesta en https://app.swaggerhub.com/apis-docs/jgcasta/DGT3.0_caso5/1.0.0#/default/getEventMetadata
 
 
 

@@ -38,13 +38,19 @@ A través de un microservicio se expondrá un API REST para permitir la consulta
   "ts": "2021-04-12T23:20:50.520Z",
   "lon": -3.45362,
   "lat": 40.45362,
+  "id_prov": 28,
+  "road": "N-340",
+  "pk": 35.100,
+  "direction": 1,
   "event": 1,
   "beacon_type": 1,
   "vehicle_type": 1,
   "speed": 25.3
 }
 ```
-Si es necesario la consulta de los metadatos asociados, invocará a un servicio REST que expone la información disponible y que enriquece la original. La definición del API de este servicio se encuentra expuesta en https://app.swaggerhub.com/apis-docs/jgcasta/DGT3.0_caso5/1.0.0#/default/getEventMetadata
+Si es necesario la consulta de los metadatos asociados, invocará a un servicio REST que expone la información disponible y que enriquece la original. La definición del API de este servicio se encuentra expuesta en https://app.swaggerhub.com/apis-docs/jgcasta/DGT3.0_caso5/1.0.0#/default/getEventMetadata.
+
+Los atributos id_pro, road, pk y direction se publicarán en el caso de que sean conocidos una vez obtenidos del GIS Corporativo.
 
 
 

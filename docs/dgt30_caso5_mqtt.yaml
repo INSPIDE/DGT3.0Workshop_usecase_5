@@ -44,6 +44,25 @@ components:
             format: double
             description: WGS84 longitude
             example: -3.45362
+          id_prov:
+            ype: number
+            format: int32
+            description: Province unique ID
+            example: 28
+          road:
+            type: string
+            description: Label road in GIS 
+            example: "N-340"
+          pk:
+            type: number
+            format: double
+            description: Kilometer point
+            example: 251.200    
+          direction:
+            ype: number
+            format: int32
+            description: Direction on the road (1 - ascendent, 2 - descendent)
+            example: 1                
           lat:
             type: number
             format: double
